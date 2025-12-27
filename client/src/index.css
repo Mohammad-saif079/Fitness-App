@@ -1,2 +1,11 @@
+@font-face {
+  font-family: "Awards";
+  src:
+    url("/Awards.woff") format("woff");
+}
 
 @import "tailwindcss";
+
+.font-awards {
+  font-family: "Awards", sans-serif;
+}
